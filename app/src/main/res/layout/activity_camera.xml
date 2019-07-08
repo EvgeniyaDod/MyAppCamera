@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+    <LinearLayout
+        android:id="@+id/layuot1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <VideoView
+            android:layout_width="match_parent"
+            android:layout_height="300sp"
+            android:id="@+id/myVideo"
+            android:layout_gravity="center_horizontal"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Отправить сигнал"
+            android:id="@+id/sendSignal"
+            android:layout_marginTop="15sp"
+            android:layout_marginBottom="15sp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Вверх"
+            android:id="@+id/up"
+            />
+        <LinearLayout
+            android:id="@+id/layuot2"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Влево"
+                android:id="@+id/left"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Фото"
+                android:id="@+id/picture"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Вправо"
+                android:id="@+id/right"
+                />
+            </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Вниз"
+            android:layout_marginBottom="15sp"
+            android:id="@+id/down"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300sp"
+            android:id="@+id/myImg"
+            />
+
+    </LinearLayout>
+</ScrollView>
